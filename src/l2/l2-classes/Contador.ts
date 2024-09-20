@@ -1,8 +1,6 @@
 export class Contador {
-    contador: number
-
-    constructor(n:number = 0){
-        this.contador = n
+    constructor(private contador:number = 0){
+        
     }
 
     zerar(): void{
