@@ -6,8 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node build/index.js",
-    "dev": "ts-node-dev --respawn --transpile-only src/l1.ts",
-    "list2": "ts-node-dev --respawn --transpile-only src/l2/index.ts"
+    "dev": "ts-node-dev --respawn --transpile-only src/pilares-poo/index.ts"
   },
   "keywords": [],
   "author": "",
